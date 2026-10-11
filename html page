@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Student Club Member Sign Up</title>
+    </head>
+    <!-- Zaid Alkazemi - HTML / Sign-Up Page Developer -->
+    <body>
+        <h1>Student Club Member Sign Up</h1>
+        <p>Fill out the form below to become a member.</p>
+        <form id="signupForm">
+            <p>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </p>
+
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+
+            <p>
+                <label for="year">Year/Grade:</label>
+                <input type="text" id="year" name="year" required>
+            </p>
+
+
+            <p>
+               <label for="affiliation">Affiliation:</label>
+                <input type="text" id="affiliation" name="affiliation" required>
+            </p>
+
+
+            <p>
+                <button type="submit">Sign Up</button>
+            </p>
+        </form>
+    </body>
+</html>
